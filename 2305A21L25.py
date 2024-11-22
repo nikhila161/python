@@ -8,7 +8,7 @@ def Tran_Eff(VSC, ISC, WSC):
     return R1, X1
 
 # Streamlit UI
-st.title 2305A21L25-PS8("Transformer Winding Resistance and Reactance Calculator")
+st.title ("2305A21L25-PS8 Transformer Winding Resistance and Reactance Calculator")
 
 # Input fields for VSC, ISC, WSC
 VSC = st.number_input("Enter Short Circuit Voltage (VSC):", min_value=0.0)
